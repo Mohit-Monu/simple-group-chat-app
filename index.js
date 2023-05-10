@@ -47,6 +47,6 @@ app.use('/chat',(req,res,next)=>{
 })
 
 app.use((req,res,next)=>{
-    res.status('404').send('<h1>Error 404: Page not Found</h1>')
+    res.status('404').send('<h1>Error 404: Page not Found</h1> ')
 })
 app.listen(4000)
